@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>How Many Baloons</title>
+</head>
+<body>
+<h3>Enter string to see how much balloons we can find</h3>
+<form action="inputstring" method="post">
+    <label for="input">Enter string here: </label>
+    <input type="text" name="input">
+    <button type="submit">Submit</button>
+</form>
+<h3 th:text="${output}"></h3>
+</body>
+</html>
